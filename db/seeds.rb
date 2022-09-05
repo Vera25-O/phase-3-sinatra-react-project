@@ -12,10 +12,10 @@ surbodinate_staff = Department.create(title: "surbodinate staff")
 general_staff = Department.create(title: "general staff")
 
 puts "Creating employees..."
-kate_kay = Employee.create(username: "Kate Kay")
-jay_lee = Employee.create(username: "Jay Lee")
-cindy_emma = Employee.create(username: "Cindy Emma")
-prince_cha = Employee.create(username: "Prince Cha")
+kate_kay = Employee.create(username: "Kate Kay", salary:90000)
+jay_lee = Employee.create(username: "Jay Lee", salary:60000)
+cindy_emma = Employee.create(username: "Cindy Emma", salary:40000)
+prince_cha = Employee.create(username: "Prince Cha", salary:80000)
 
 puts "Creating tasks..."
 
