@@ -17,10 +17,10 @@ prince_cha = Employee.create(username: "Prince Cha")
 
 puts "Creating taskss..."
 
-Task.create(salary: 40000,username: "Vedy", department_id:finance_section.id, employee_id:kate_kay.id)
-Task.create(salary: 85000,username: "Yasin", department_id:general_staff.id, employee_id:jay_lee.id)
-Task.create(salary: 60000,username: "Kate", department_id:surbodinate_staff.id, employee_id:cindy_emma.id)
-Task.create(salary: 45000,username: "Cane", department_id:IT_section.id, employee_id:prince_cha.id)
+Task.create(salary: 90000,username: "Vedy", department_id:finance_section.id, employee_id:kate_kay.id)
+Task.create(salary: 60000,username: "Yasin", department_id:general_staff.id, employee_id:jay_lee.id)
+Task.create(salary: 40000,username: "Kate", department_id:surbodinate_staff.id, employee_id:cindy_emma.id)
+Task.create(salary: 80000,username: "Cane", department_id:IT_section.id, employee_id:prince_cha.id)
 
 
 puts "Seeding done!"
