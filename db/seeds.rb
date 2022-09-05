@@ -2,7 +2,7 @@ puts "🌱 Seeding spices..."
 
 
 puts "Deleting department/employee data..."
-Department.destroy_all
+departments.destroy_all
 Employee.destroy_all
 
 puts "Creating departments..."
