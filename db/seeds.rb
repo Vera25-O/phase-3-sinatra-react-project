@@ -10,21 +10,17 @@ mean_girls = Department.create(title: "Mean Girls", box_office_earnings: 129_000
 spice_world = Department.create(title: "Spice World", box_office_earnings: 151_000_000)
 
 puts "Creating employees..."
-lindsay_lohan = Employee.create(username: "Lindsay Lohan")
-tina_fey = Employee.create(username: "Tina Fey")
-baby_spice = Employee.create(username: "Emma Bunton")
-ginger_spice = Employee.create(username: "Geri Halliwell")
+kate_kay = Employee.create(username: "Kate Kay")
+jay_lee = Employee.create(username: "Jay Lee")
+cindy_emma = Employee.create(username: "Cindy Emma")
+prince_cha = Employee.create(username: "Prince Cha")
 
-puts "Creating roles..."
-# ***********************************************************
-# * TODO: create roles! Remember, a role belongs to a movie *
-# * and a role belongs to an actor.                         *
-# ***********************************************************
-# Create Roles Here
-Task.create(salary: 40000,username: "Vedy", department_id:mean_girls.id, employee_id:lindsay_lohan.id)
-Task.create(salary: 85000,username: "Yasin", department_id:spice_world.id, employee_id:tina_fey.id)
-Task.create(salary: 60000,username: "Kate", department_id:mean_girls.id, employee_id:scary_spice.id)
-Task.create(salary: 45000,username: "Cane", department_id:spice_world.id, employee_id:ginger_spice.id)
+puts "Creating taskss..."
+
+Task.create(salary: 40000,username: "Vedy", department_id:finance_section.id, employee_id:kate_kay.id)
+Task.create(salary: 85000,username: "Yasin", department_id:general_staff.id, employee_id:jay_lee.id)
+Task.create(salary: 60000,username: "Kate", department_id:surbodinate_staff.id, employee_id:cindy_emma.id)
+Task.create(salary: 45000,username: "Cane", department_id:IT_section.id, employee_id:prince_cha.id)
 
 
 puts "Seeding done!"
