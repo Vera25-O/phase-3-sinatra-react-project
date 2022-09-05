@@ -1,7 +1,7 @@
 class ApplicationController < Sinatra::Base
   set :default_content_type, 'application/json'
   
-  # Add your routes here
+  
   get "/employees" do
     employees = Employee.all.order(:created_at)
     employees.to_json
