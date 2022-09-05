@@ -1,9 +1,9 @@
 puts "🌱 Seeding spices..."
 
 
-puts "Deleting department/employee data..."
-department.destroy_all
-employee.destroy_all
+# puts "Deleting department/employee data..."
+# department.destroy_all
+# employee.destroy_all
 
 puts "Creating department..."
 finance_section = Department.create(title: "finance section")
