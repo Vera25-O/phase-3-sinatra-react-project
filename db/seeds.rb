@@ -5,7 +5,7 @@ puts "🌱 Seeding spices..."
 # department.destroy_all
 # employee.destroy_all
 
-puts "Creating department..."
+puts "Creating departments..."
 finance_section = Department.create(title: "finance section")
 IT_section = Department.create(title: "IT section")
 surbodinate_staff = Department.create(title: "surbodinate staff")
