@@ -6,8 +6,8 @@ Department.destroy_all
 Employee.destroy_all
 
 puts "Creating departments..."
-mean_girls = Department.create(title: "Mean Girls", box_office_earnings: 129_000_000)
-spice_world = Department.create(title: "Spice World", box_office_earnings: 151_000_000)
+finance_section = Department.create(title: "finance section", box_office_earnings: 129_000_000)
+IT_section = Department.create(title: "IT section", box_office_earnings: 151_000_000)
 
 puts "Creating employees..."
 kate_kay = Employee.create(username: "Kate Kay")
