@@ -14,7 +14,7 @@ class ApplicationController < Sinatra::Base
 
   patch "/employees/:id" do
     employee = Employee.find(params[:id])
-    employee.update(salary: params[:salary])
+    employee.update(salary: params[:salary], username: params[:username])
     employee.to_json
   end
 
