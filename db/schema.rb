@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 2022_09_05_153726) do
     t.string "username"
     t.string "position"
     t.string "image"
-    t.integer "salary"
+    t.string "salary"
   end
 
   create_table "tasks", force: :cascade do |t|
