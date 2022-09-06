@@ -8,7 +8,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post "/employees" do
-    employee = Employee.create(salary: params[:salary], username: params[:username])
+    employee = Employee.create(salary: params[:salary], username: params[:username],image: params[:image], position: params[:position])
     employee.to_json
   end
 
