@@ -4,7 +4,7 @@ class CreateEmployees < ActiveRecord::Migration[6.1]
       t.string "username"
       t.string "position"
       t.string "image"
-      t.integer "salary"
+      t.string "salary"
     end
   end
 end
