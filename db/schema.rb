@@ -13,6 +13,7 @@
 ActiveRecord::Schema.define(version: 2022_09_05_153726) do
 
   create_table "departments", force: :cascade do |t|
+    t.string "task"
     t.string "title"
   end
 
@@ -23,6 +24,8 @@ ActiveRecord::Schema.define(version: 2022_09_05_153726) do
 
   create_table "employees", force: :cascade do |t|
     t.string "username"
+    t.string "position"
+    t.string "image"
     t.integer "salary"
   end
 
