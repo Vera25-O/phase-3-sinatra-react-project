@@ -18,8 +18,8 @@ prince_cha = Employee.create(username: "Prince Cha", "Salary:Salary KSH 80000", 
 kate_kay = Employee.create(username: "Kate Kay", "Salary:Salary KSH 90000",position:"Cashier", image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmo_Nuzkt2bB5GXUrDQWBeyX6t1TpnSAF0bxYHKjWa&s")
 puts "Creating tasks..."
 
-Task.create( salary: "Salary KSH 90000,username": "Vedy", department_id:finance_section.id, employee_id:kate_kay.id)
-Task.create( salary: "Salary KSH 60000,username": "Yasin", department_id:general_staff.id, employee_id:jay_lee.id)
+Task.create( salary: "Salary KSH 90000",username: "Vedy", department_id:finance_section.id, employee_id:kate_kay.id)
+Task.create( salary: "Salary KSH 60000",username: "Yasin", department_id:general_staff.id, employee_id:jay_lee.id)
 Task.create(salary: "Salary KSH 40000",username: "Cindy", department_id:surbodinate_staff.id, employee_id:cindy_emma.id)
 Task.create(salary: "Salary KSH 80000",username: "Cane", department_id:IT_section.id, employee_id:prince_cha.id)
 
