@@ -25,6 +25,4 @@ Task.create(salary: 40000,username: "Cindy", department_id:surbodinate_staff.id,
 Task.create(salary: 80000,username: "Cane", department_id:IT_section.id, employee_id:prince_cha.id)
 
 
-puts "Seeding done!"
-
 puts "✅ Done seeding!"
